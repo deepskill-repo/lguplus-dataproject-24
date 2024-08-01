@@ -37,6 +37,7 @@ input_text = read_file_as_string('original')
 cells = text_to_notebook_cells(input_text)
 nb = nbf.v4.new_notebook()
 nb['cells'] = cells
-output_file = '[2조]플래그십인사이트_마케팅믹스모델.ipynb'
+output_file = '[4조]장애예측_시계열예측.ipynb'
 with open(output_file, 'w', encoding='utf-8') as f:
     nbf.write(nb, f)
+
