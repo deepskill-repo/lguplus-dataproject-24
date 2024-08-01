@@ -37,7 +37,7 @@ input_text = read_file_as_string('original')
 cells = text_to_notebook_cells(input_text)
 nb = nbf.v4.new_notebook()
 nb['cells'] = cells
-output_file = '[6조]중복불만콜_분류.ipynb'
+output_file = '[7조]조치추천_시계열유사성.ipynb'
 with open(output_file, 'w', encoding='utf-8') as f:
     nbf.write(nb, f)
 
